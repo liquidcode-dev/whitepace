@@ -1011,7 +1011,7 @@ footer {
 
   .plan-btn {
     color: var(--secondary-white);
-    background-color: var(--primary);
+    background-color: var(--primary-weak);
     margin-top: 20px;
     padding: 0 24px;
   }
