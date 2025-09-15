@@ -15,6 +15,8 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/hamburger.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
@@ -58,131 +60,180 @@
       <div class="pc__wrap hero__inner">
         <div class="hero__left">
           <h1>whitepaceで<br>成果を達成する</h1>
+          
           <p class="read-text text-white">
             チームが共同作業を行い、計画、分析し、日常のタスクを管理できるようにするプロジェクト管理ソフトウェア
           </p>
+          <div class="hero__right sp-block"></div>
           <a href="#" class="signup-btn btn btn-margin">whitepace を無料で試す</a>
         </div>
-        <div class="hero__right"></div>
+        <div class="hero__right pc-block"></div>
       </div>
     </section>
 
     <!-- project section -->
-    <section class="pc__wrap project">
+    <section class="pc__wrap project fade-in">
       <div class="project__left">
         <h2>プロジェクト<br>マネージメント</h2>
         <p class="read-text text-black">画像、動画、PDF、音声ファイルに対応しています。アプリから直接数式や図表を作成できます。モバイルアプリで写真を撮影し、メモに保存することもできます。</p>
+        <div class="project__right sp-block"></div>
         <a href="#" class="signup-btn btn btn-margin">はじめる</a>
       </div>
-      <div class="project__right"></div>
+      <div class="project__right pc-block"></div>
     </section>
 
     <!-- work section -->
-    <section class="pc__wrap work">
-      <div class="work__left"></div>
+    <section class="pc__wrap work fade-in">
+      <div class="work__left pc-block">
+        <div class="orbits">
+          <div class="center"></div>
+          <div class="ring ring--inner"></div>
+          <div class="orbit orbit--inner">
+            <span class="pos" style="--a:0deg"><i class="dot" style="--c:#22c55e; --img:url('../img/avatar1.png')"></i></span>
+            <span class="pos" style="--a:120deg"><i class="dot" style="--c:#3b82f6; --img:url('../img/avatar2.png')"></i></span>
+            <span class="pos" style="--a:240deg"><i class="dot" style="--c:#3b82f6; --img:url('../img/avatar3.png')"></i></span>
+          </div>
+          <div class="ring ring--outer"></div>
+          <div class="orbit orbit--outer">
+            <span class="pos" style="--a:0deg"><i class="dot" style="--c:#f43f5e; --img:url('../img/avatar4.png')"></i></span>
+            <span class="pos" style="--a:72deg"><i class="dot" style="--c:#60a5fa; --img:url('../img/avatar5.png')"></i></span>
+            <span class="pos" style="--a:144deg"><i class="dot" style="--c:#22c55e; --img:url('../img/avatar6.png')"></i></span>
+            <span class="pos" style="--a:216deg"><i class="dot" style="--c:#fbbf24; --img:url('../img/avatar1.png')"></i></span>
+            <span class="pos" style="--a:288deg"><i class="dot" style="--c:#60a5fa; --img:url('../img/avatar2.png')"></i></span>
+          </div>
+        </div>
+      </div>
       <div class="work__right">
         <h2>一緒に働く</h2>
         <p class="read-text text-black">Whitepace を使えば、同僚とメモを共有し、共同作業を行うことができます。また、メモをインターネットに公開し、URL を他のユーザーと共有することもできます。</p>
+        <div class="work__left sp-block">
+          <div class="orbits">
+            <div class="center"></div>
+            <div class="ring ring--inner"></div>
+            <div class="orbit orbit--inner">
+              <span class="pos" style="--a:0deg"><i class="dot" style="--c:#22c55e; --img:url('../img/avatar1.png')"></i></span>
+              <span class="pos" style="--a:120deg"><i class="dot" style="--c:#3b82f6; --img:url('../img/avatar2.png')"></i></span>
+              <span class="pos" style="--a:240deg"><i class="dot" style="--c:#3b82f6; --img:url('../img/avatar3.png')"></i></span>
+            </div>
+            <div class="ring ring--outer"></div>
+            <div class="orbit orbit--outer">
+              <span class="pos" style="--a:0deg"><i class="dot" style="--c:#f43f5e; --img:url('../img/avatar4.png')"></i></span>
+              <span class="pos" style="--a:72deg"><i class="dot" style="--c:#60a5fa; --img:url('../img/avatar5.png')"></i></span>
+              <span class="pos" style="--a:144deg"><i class="dot" style="--c:#22c55e; --img:url('../img/avatar6.png')"></i></span>
+              <span class="pos" style="--a:216deg"><i class="dot" style="--c:#fbbf24; --img:url('../img/avatar1.png')"></i></span>
+              <span class="pos" style="--a:288deg"><i class="dot" style="--c:#60a5fa; --img:url('../img/avatar2.png')"></i></span>
+            </div>
+          </div>
+        </div>
         <a href="#" class="signup-btn btn btn-margin">はじめる</a>
       </div>
     </section>
 
     <!-- extention section -->
-    <section class="extention">
+    <section class="extention fade-in">
       <div class="pc__wrap extention__inner">
         <div class="extention__left">
-          <h2>拡張機能として使用する</h2>
+          <h2>拡張機能として<br class="sp-block">使用する</h2>
           <p class="read-text text-white">Chrome および Firefox で利用可能な Web クリッパー拡張機能を使用して、Web ページを保存したり、スクリーンショットをメモとして撮ったりできます。</p>
+          <div class="extention__right sp-block"></div>
           <a href="#" class="signup-btn btn btn-margin">はじめる</a>
         </div>
-        <div class="extention__right"></div>
+        <div class="extention__right pc-block"></div>
       </div>
     </section>
 
     <!-- customize section -->
-    <section class="pc__wrap customize">
-      <div class="customize__left"></div>
+    <section class="pc__wrap customize fade-in">
+      <div class="customize__left pc-block"></div>
       <div class="customize__right">
         <h2>ニーズに合わせて<br>カスタマイズ</h2>
         <p class="read-text text-black">プラグイン、カスタムテーマ、複数のテキストエディター（リッチテキストまたはMarkdown）を使ってアプリをカスタマイズできます。また、Extension APIを使って独自のスクリプトやプラグインを作成することもできます。</p>
+        <div class="customize__left sp-block"></div>
         <a href="#" class="signup-btn btn btn-margin">はじめる</a>
       </div>
     </section>
 
     <!-- pricing section -->
-    <section class="pc__wrap pricing">
-      <h2>プランを選択してください</h2>
+    <section class="pc__wrap pricing fade-in">
+      <h2>プランを<br class="sp-block">選択してください</h2>
       <p class="read-text text-black text-center">整理整頓したい、私生活を軌道に乗せたい、職場の生産性を高めたいなど、whitepace には最適なプランがあります。</p>
 
       <div class="pricing-cards">
-        <article class="plan">
-          <h3 class="plan-title">無料</h3>
-          <p class="plan-price">¥0</p>
-          <p class="read-text">アイデアをキャプチャして見つける</p>
-          <ul class="plan-features">
-            <li>無制限のデバイスを同期</li>
-            <li>月間10GBのアップロード</li>
-            <li>最大200MBのノートサイズ</li>
-            <li>ダッシュボードをカスタマイズ</li>
-            <li>Googleカレンダーアカウントを接続</li>
-            <li>タスクに期限、リマインダー、通知を追加</li>
-          </ul>
-          <a href="#" class="plan-btn btn">はじめる</a>
+        <article class="plan" style="--c:#4F9CF9">
+          <h3 class="plan-title">無料プラン</h3>
+          <div class="plan__inner">
+            <p class="plan-read">アイデアをキャプチャする</p>
+            <p class="plan-price">¥0</p>
+            <ul class="plan-features">
+              <li>無制限のデバイスを同期</li>
+              <li>月間10GBのアップロード</li>
+              <li>最大200MBのノートサイズ</li>
+              <li>ダッシュボードをカスタマイズ</li>
+              <li>Googleカレンダーアカウントを接続</li>
+              <li>タスクに期限、リマインダー、通知を追加</li>
+            </ul>
+            <a href="#" class="plan-btn btn">はじめる</a>
+          </div>
         </article>
 
-        <article class="plan">
-          <h3 class="plan-title">個人</h3>
-          <p class="plan-price">¥1900</p>
-          <p class="read-text">家庭や個人の生活をしっかり管理</p>
-          <ul class="plan-features">
-            <li>無制限のデバイスを同期</li>
-            <li>月間10GBのアップロード</li>
-            <li>最大200MBのノートサイズ</li>
-            <li>ダッシュボードをカスタマイズ</li>
-            <li>Googleカレンダーアカウントを接続</li>
-            <li>タスクに期限、リマインダー、通知を追加</li>
-          </ul>
-          <a href="#" class="plan-btn btn">はじめる</a>
+        <article class="plan" style="--c:#2A6AB6">
+          <h3 class="plan-title">個人プラン</h3>
+          <div class="plan__inner">
+            <p class="plan-read">家庭や個人の生活をしっかり管理</p>
+            <p class="plan-price">¥1,900</p>
+            <ul class="plan-features">
+              <li>無制限のデバイスを同期</li>
+              <li>月間10GBのアップロード</li>
+              <li>最大200MBのノートサイズ</li>
+              <li>ダッシュボードをカスタマイズ</li>
+              <li>Googleカレンダーアカウントを接続</li>
+              <li>タスクに期限、リマインダー、通知を追加</li>
+            </ul>
+            <a href="#" class="plan-btn btn">はじめる</a>
+          </div>
         </article>
 
-        <article class="plan">
-          <h3 class="plan-title">法人</h3>
-          <p class="plan-price">¥9900</p>
-          <p class="read-text">家庭や個人の生活をしっかり管理</p>
-          <ul class="plan-features">
-            <li>無制限のデバイスを同期</li>
-            <li>月間10GBのアップロード</li>
-            <li>最大200MBのノートサイズ</li>
-            <li>ダッシュボードをカスタマイズ</li>
-            <li>Googleカレンダーアカウントを接続</li>
-            <li>タスクに期限、リマインダー、通知を追加</li>
-          </ul>
-          <a href="#" class="plan-btn btn">はじめる</a>
+        <article class="plan" style="--c:#043873">
+          <h3 class="plan-title">法人プラン</h3>
+          <div class="plan__inner">
+            <p class="plan-read">家庭や個人の生活をしっかり管理</p>
+            <p class="plan-price">¥9,900</p>
+            <ul class="plan-features">
+              <li>無制限のデバイスを同期</li>
+              <li>月間10GBのアップロード</li>
+              <li>最大200MBのノートサイズ</li>
+              <li>ダッシュボードをカスタマイズ</li>
+              <li>Googleカレンダーアカウントを接続</li>
+              <li>タスクに期限、リマインダー、通知を追加</li>
+            </ul>
+            <a href="#" class="plan-btn btn">はじめる</a>
+          </div>
         </article>
       </div>
     </section>
 
     <!-- where section -->
-    <section class="where">
+    <section class="where fade-in">
       <div class="pc__wrap where__inner">
-      <h2>どこにいても、仕事ができる</h2>
+      <h2>どこにいても、<br class="sp-block">仕事ができる</h2>
         <p class="read-text text-white">Whitepace、Dropbox、OneDriveなどの様々なサービスと同期することで、パソコン、スマートフォン、タブレットからメモにアクセスできます。アプリはWindows、macOS、Linux、Android、iOSでご利用いただけます。ターミナルアプリもご利用いただけます。</p>
         <a href="#" class="signup-btn btn btn-margin">無料で試してみる</a>
       </div>
     </section>
 
     <!-- data section -->
-    <section class="pc__wrap data">
+    <section class="pc__wrap data fade-in">
       <div class="data__left">
-        <h2>データは 100% 保護されます</h2>
+        <h2>データは <br class="sp-block">100% 保護されます</h2>
         <p class="read-text text-black">このアプリはオープンソースで、メモはオープンフォーマットで保存されるため、いつでもアクセスできます。エンドツーエンド暗号化（E2EE）により、メモは安全に保護され、自分以外の誰もアクセスできないようになっています。</p>
+        <div class="data__right sp-block"></div>
         <a href="#" class="signup-btn btn btn-margin">さらに読む</a>
       </div>
-      <div class="data__right"></div>
+      <div class="data__right pc-block"></div>
     </section>
 
     <!-- sponsors section -->
-     <section class="pc__wrap sponsors">
+     <section class="pc__wrap sponsors fade-in">
         <h2>私たちのスポンサー</h2>
         <div class="sponsors__inner">
           <img src="img/Apple.png" alt="Apple logo" loading="lazy" decoding="async">
@@ -193,19 +244,20 @@
      </section>
 
      <!-- apps section -->
-     <section class="apps">
+     <section class="apps fade-in">
       <div class="pc__wrap apps__inner">
-        <div class="apps__left"></div>
+        <div class="apps__left pc-block"></div>
         <div class="apps__right">
           <h2>Whitepaceを使用してお気に入りのアプリを操作する</h2>
           <p class="read-text text-white">Whitepaceは、お気に入りのソフトウェアと連携します。Zapierと連携して1,000以上のアプリと連携し、プロジェクトの成功に必要なツールをすべて手に入れることができます。</p>
+          <div class="apps__left sp-block"></div>
           <a href="#" class="signup-btn btn btn-margin">さらに読む</a>
         </div>
       </div>
      </section>
 
      <!-- review section -->
-      <section class="pc__wrap review">
+      <section class="pc__wrap review fade-in">
         <h2>ユーザーの声</h2>
 
         <div class="review-cards">
@@ -246,7 +298,7 @@
       <section class="cta">
         <div class="pc__wrap cta__inner">
           <h2>今すぐ whitepace を<br>お試しください</h2>
-          <p>無料で始めましょう。<br>ニーズの拡大に合わせてチーム全体を追加できます。</p>
+          <p class="read-text">無料で始めましょう。<br class="pc-block">ニーズの拡大に合わせてチーム全体を追加できます。</p>
           <div><a href="#" class="signup-btn btn">無料ではじめる</a></div>
           <p>大規模なチームですか？<br>営業担当にお問い合わせください</p>
           <div class="cta-sales">
@@ -263,7 +315,7 @@
       <a href="/" class="footer-logo">
         <img src="img/Logo.svg" alt="whitepace">
       </a>
-      <p class="read-text text-white">Whitepaceは、私たちの新しい生活様式と働き方のために作られました。<br>私たちは世界中でより良いワークスペースを創ります。</p>
+      <p class="read-text text-white">Whitepaceは、私たちの新しい生活様式と働き方のために作られました。<br class="pc-block">私たちは世界中でより良いワークスペースを創ります。</p>
       
       <nav class="footer--nav">
         <a href="#">Products</a>
@@ -275,6 +327,21 @@
       <p class="copyright">©2025 Whitepace sample.</p>
     </div>
   </footer>
+
+
+  <script>
+    $(window).on('scroll', function() {
+      $('.fade-in').each(function() {
+        let elemTop = $(this).offset().top;   // 要素の上端位置
+        let scroll = $(window).scrollTop();   // 現在のスクロール量
+        let windowHeight = $(window).height(); // 画面の高さ
+
+        if (scroll > elemTop - windowHeight + 100) {
+          $(this).addClass('show');
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
